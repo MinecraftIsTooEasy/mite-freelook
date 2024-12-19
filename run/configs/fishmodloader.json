@@ -1,0 +1,44 @@
+{
+  "Server": {
+    "allowClientMods": {
+      "_comment": "允许客户端使用客户端模组(如坐标器)",
+      "value": true
+    },
+    "_comment": "服务端"
+  },
+  "Client": {
+    "fpsLimit": {
+      "_comment": "FPS最大值",
+      "value": 120
+    },
+    "_comment": "客户端"
+  },
+  "Debug": {
+    "debug": {
+      "_comment": "开启调试模式",
+      "value": false
+    },
+    "print_entity_damage_info": {
+      "_comment": "输出实体受到伤害信息",
+      "value": true
+    },
+    "printClassloadInfo": {
+      "_comment": "输出类加载信息",
+      "value": false
+    },
+    "DumpClass": {
+      "dumpPath": {
+        "_comment": "类文件输出目录(现在可以通过导入.fml/remappedJars/下的jar文件作为编译依赖而不需类导出)",
+        "value": ".\\.mixin.out"
+      },
+      "dumpClass": {
+        "_comment": "输出Mixin处理后的类文件",
+        "value": false
+      },
+      "_comment": "类导出(注意! 类导出将在未来逐步禁用!并尝试通过接口注入的方式替换类导出实现的功能!请尽量不要依赖类导出构建您的模组,这会使得迁移困难!)"
+    },
+    "_comment": "调试"
+  },
+  "_comment": "FishModLoader配置文件",
+  "config_version": 1
+}

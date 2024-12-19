@@ -1,0 +1,40 @@
+{
+  "freelook": {
+    "freelook.enableF5": {
+      "value": false,
+      "comment": "Enables the use of F5 camera modes, though is intended to be disabled. (DEFAULT: false)"
+    },
+    "freelook.smoothZoom": {
+      "value": false,
+      "comment": "Enables smooth camera movement on zoom. When disabled, camera sensitivity will be adjusted\n# to fit zoom percentage instead. (DEFAULT: false)"
+    },
+    "freelook.zoomType": {
+      "value": "REALISTIC",
+      "comment": "Type of zoom to emulate. (DEFAULT: 0)\n# 0 - \"Realistic\": Simulates effects of squinting (tunnel vision, slower zoom)\n# 1 - Interpolated: Fast, interpolated zooming\n# 2 - Classic: Optifine-like snap zoom"
+    },
+    "freelook.zoomFactor": {
+      "value": 200.0,
+      "useSlider": true,
+      "comment": "Percentage to zoom in FOV by. (DEFAULT: 200.0)"
+    },
+    "freelook.freelookRange": {
+      "value": 45.0,
+      "useSlider": true,
+      "comment": "Range of view in Freelook mode. (DEFAULT: 45.0 deg.)"
+    }
+  },
+  "hotkeys": {
+    "freelook.key.zoom": {
+      "hotkey": {
+        "keys": "F"
+      },
+      "comment": "freelook.key.zoom"
+    },
+    "freelook.key.freelook": {
+      "hotkey": {
+        "keys": "LMENU"
+      },
+      "comment": "freelook.key.freelook"
+    }
+  }
+}

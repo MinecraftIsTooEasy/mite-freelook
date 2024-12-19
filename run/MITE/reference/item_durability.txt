@@ -1,0 +1,216 @@
+Tools have their own specific decay rates vs blocks and entities. See tool decay rate files for more information.
+
+Item Durability
+---------------
+Item[145] Iron Anvil: 396800
+Item[229] Copper Anvil: 198400
+Item[230] Silver Anvil: 198400
+Item[231] Golden Anvil: 198400
+Item[232] Mithril Anvil: 3174400
+Item[233] Adamantium Anvil: 12697600
+Item[254] Ancient Metal Anvil: 793600
+Item[256] 铁锹 (average): 3200
+Item[257] 铁镐 (average): 9600
+Item[258] Iron Axe (average): 9600
+Item[259] 打火石: 16
+Item[261] 弓 (average): 32
+Item[267] 铁剑 (average): 6400
+Item[269] 木锹 (average): 200
+Item[283] 金剑 (average): 3200
+Item[284] 金锹 (average): 1600
+Item[285] 金镐 (average): 4800
+Item[286] Golden Axe (average): 4800
+Item[292] 铁锄 (average): 6400
+Item[294] 金锄 (average): 3200
+Item[298] 皮革帽子 (average): 10
+Item[299] 皮革外套 (average): 16
+Item[300] 皮革裤子 (average): 14
+Item[301] 皮革靴子 (average): 8
+Item[302] Iron Chain Helmet (average): 40
+Item[303] Iron Chain Chestplate (average): 64
+Item[304] Iron Chain Leggings (average): 56
+Item[305] Iron Chain Boots (average): 32
+Item[306] 铁头盔 (average): 80
+Item[307] 铁胸甲 (average): 128
+Item[308] 铁护腿 (average): 112
+Item[309] 铁靴子 (average): 64
+Item[314] 金头盔 (average): 40
+Item[315] 金胸甲 (average): 64
+Item[316] 金护腿 (average): 56
+Item[317] 金靴子 (average): 32
+Item[346] 钓鱼竿 (iron): 16
+Item[359] Iron Shears (average): 6400
+Item[398] 萝卜钓竿 (iron): 25
+Item[967] Copper Pickaxe (average): 4800
+Item[968] Silver Pickaxe (average): 4800
+Item[969] Mithril Pickaxe (average): 76800
+Item[970] Adamantium Pickaxe (average): 307200
+Item[971] Rusted Iron Pickaxe (poor): 3600
+Item[972] Flint Shovel (average): 400
+Item[973] Copper Shovel (average): 1600
+Item[974] Silver Shovel (average): 1600
+Item[975] Mithril Shovel (average): 25600
+Item[976] Adamantium Shovel (average): 102400
+Item[977] Rusted Iron Shovel (poor): 1200
+Item[978] Flint Hatchet (average): 400
+Item[979] Flint Axe (average): 1200
+Item[980] Copper Axe (average): 4800
+Item[981] Silver Axe (average): 4800
+Item[982] Mithril Axe (average): 76800
+Item[983] Adamantium Axe (average): 307200
+Item[984] Rusted Iron Axe (poor): 3600
+Item[985] Copper Hoe (average): 3200
+Item[986] Silver Hoe (average): 3200
+Item[987] Mithril Hoe (average): 51200
+Item[988] Adamantium Hoe (average): 204800
+Item[989] Rusted Iron Hoe (poor): 2400
+Item[990] Copper War Hammer (average): 8000
+Item[991] Silver War Hammer (average): 8000
+Item[992] Golden War Hammer (average): 8000
+Item[993] Iron War Hammer (average): 16000
+Item[994] Mithril War Hammer (average): 128000
+Item[995] Adamantium War Hammer (average): 512000
+Item[996] Rusted Iron War Hammer (poor): 6000
+Item[997] Copper Mattock (average): 6400
+Item[998] Silver Mattock (average): 6400
+Item[999] Golden Mattock (average): 6400
+Item[1000] Iron Mattock (average): 12800
+Item[1001] Mithril Mattock (average): 102400
+Item[1002] Adamantium Mattock (average): 409600
+Item[1003] Rusted Iron Mattock (poor): 4800
+Item[1004] Copper Battle Axe (average): 6400
+Item[1005] Silver Battle Axe (average): 6400
+Item[1006] Golden Battle Axe (average): 6400
+Item[1007] Iron Battle Axe (average): 12800
+Item[1008] Mithril Battle Axe (average): 102400
+Item[1009] Adamantium Battle Axe (average): 409600
+Item[1010] Rusted Iron Battle Axe (poor): 4800
+Item[1011] Copper Scythe (average): 3200
+Item[1012] Silver Scythe (average): 3200
+Item[1013] Golden Scythe (average): 3200
+Item[1014] Iron Scythe (average): 6400
+Item[1015] Mithril Scythe (average): 51200
+Item[1016] Adamantium Scythe (average): 204800
+Item[1017] Rusted Iron Scythe (poor): 2400
+Item[1018] Copper Shears (average): 3200
+Item[1019] Silver Shears (average): 3200
+Item[1020] Golden Shears (average): 3200
+Item[1021] Mithril Shears (average): 51200
+Item[1022] Adamantium Shears (average): 204800
+Item[1023] Flint Knife (average): 400
+Item[1024] Wooden Cudgel (average): 200
+Item[1025] Wooden Club (average): 400
+Item[1028] Copper Sword (average): 3200
+Item[1029] Silver Sword (average): 3200
+Item[1030] Mithril Sword (average): 51200
+Item[1031] Adamantium Sword (average): 204800
+Item[1032] Rusted Iron Sword (poor): 2400
+Item[1033] Copper Dagger (average): 1600
+Item[1034] Silver Dagger (average): 1600
+Item[1035] Golden Dagger (average): 1600
+Item[1036] Iron Dagger (average): 3200
+Item[1037] Mithril Dagger (average): 25600
+Item[1038] Adamantium Dagger (average): 102400
+Item[1039] Rusted Iron Dagger (poor): 1200
+Item[1048] Mithril Bow (average): 128
+Item[1050] Copper Knife (average): 1600
+Item[1051] Silver Knife (average): 1600
+Item[1052] Golden Knife (average): 1600
+Item[1053] Iron Knife (average): 3200
+Item[1054] Mithril Knife (average): 25600
+Item[1055] Adamantium Knife (average): 102400
+Item[1056] Rusted Iron Knife (poor): 1200
+Item[1057] Ancient Metal Knife (average): 6400
+Item[1067] Copper Helmet (average): 40
+Item[1068] Silver Helmet (average): 40
+Item[1069] Mithril Helmet (average): 640
+Item[1070] Adamantium Helmet (average): 2560
+Item[1071] Copper Chain Helmet (average): 20
+Item[1072] Silver Chain Helmet (average): 20
+Item[1073] Golden Chain Helmet (average): 20
+Item[1074] Mithril Chain Helmet (average): 320
+Item[1075] Adamantium Chain Helmet (average): 1280
+Item[1076] Rusted Iron Helmet (poor): 30
+Item[1077] Rusted Iron Chain Helmet (poor): 15
+Item[1078] Copper Chestplate (average): 64
+Item[1079] Silver Chestplate (average): 64
+Item[1080] Mithril Chestplate (average): 1024
+Item[1081] Adamantium Chestplate (average): 4096
+Item[1082] Copper Chain Chestplate (average): 32
+Item[1083] Silver Chain Chestplate (average): 32
+Item[1084] Golden Chain Chestplate (average): 32
+Item[1085] Mithril Chain Chestplate (average): 512
+Item[1086] Adamantium Chain Chestplate (average): 2048
+Item[1087] Rusted Iron Chestplate (poor): 48
+Item[1088] Rusted Iron Chain Chestplate (poor): 24
+Item[1089] Copper Leggings (average): 56
+Item[1090] Silver Leggings (average): 56
+Item[1091] Mithril Leggings (average): 896
+Item[1092] Adamantium Leggings (average): 3584
+Item[1093] Copper Chain Leggings (average): 28
+Item[1094] Silver Chain Leggings (average): 28
+Item[1095] Golden Chain Leggings (average): 28
+Item[1096] Mithril Chain Leggings (average): 448
+Item[1097] Adamantium Chain Leggings (average): 1792
+Item[1098] Rusted Iron Leggings (poor): 42
+Item[1099] Rusted Iron Chain Leggings (poor): 21
+Item[1100] Copper Boots (average): 32
+Item[1101] Silver Boots (average): 32
+Item[1102] Mithril Boots (average): 512
+Item[1103] Adamantium Boots (average): 2048
+Item[1104] Copper Chain Boots (average): 16
+Item[1105] Silver Chain Boots (average): 16
+Item[1106] Golden Chain Boots (average): 16
+Item[1107] Mithril Chain Boots (average): 256
+Item[1108] Adamantium Chain Boots (average): 1024
+Item[1109] Rusted Iron Boots (poor): 24
+Item[1110] Rusted Iron Chain Boots (poor): 12
+Item[1175] Copper Hatchet (average): 1600
+Item[1176] Silver Hatchet (average): 1600
+Item[1177] Golden Hatchet (average): 1600
+Item[1178] Iron Hatchet (average): 3200
+Item[1179] Mithril Hatchet (average): 25600
+Item[1180] Adamantium Hatchet (average): 102400
+Item[1181] Rusted Iron Hatchet (poor): 1200
+Item[1182] Rusted Iron Shears (poor): 2400
+Item[1192] 钓鱼竿 (copper): 8
+Item[1193] 钓鱼竿 (silver): 8
+Item[1194] 钓鱼竿 (gold): 8
+Item[1195] 钓鱼竿 (mithril): 128
+Item[1196] 钓鱼竿 (adamantium): 512
+Item[1197] 萝卜钓竿 (copper): 25
+Item[1198] 萝卜钓竿 (silver): 25
+Item[1199] 萝卜钓竿 (gold): 25
+Item[1200] 萝卜钓竿 (mithril): 25
+Item[1201] 萝卜钓竿 (adamantium): 25
+Item[1202] Obsidian Shovel (average): 800
+Item[1203] Obsidian Knife (average): 800
+Item[1204] Obsidian Hatchet (average): 800
+Item[1205] Obsidian Axe (average): 2400
+Item[1207] 钓鱼竿 (flint): 3
+Item[1208] 萝卜钓竿 (flint): 25
+Item[1212] 钓鱼竿 (obsidian): 4
+Item[1213] 萝卜钓竿 (obsidian): 25
+Item[1239] Ancient Metal Pickaxe (average): 19200
+Item[1240] Ancient Metal Shovel (average): 6400
+Item[1241] Ancient Metal Axe (average): 19200
+Item[1242] Ancient Metal Hoe (average): 12800
+Item[1243] Ancient Metal War Hammer (average): 32000
+Item[1244] Ancient Metal Mattock (average): 25600
+Item[1245] Ancient Metal Battle Axe (average): 25600
+Item[1246] Ancient Metal Scythe (average): 12800
+Item[1247] Ancient Metal Shears (average): 12800
+Item[1248] Ancient Metal Sword (average): 12800
+Item[1249] Ancient Metal Dagger (average): 6400
+Item[1251] Ancient Metal Bow (average): 64
+Item[1252] Ancient Metal Helmet (average): 160
+Item[1253] Ancient Metal Chain Helmet (average): 80
+Item[1254] Ancient Metal Chestplate (average): 256
+Item[1255] Ancient Metal Chain Chestplate (average): 128
+Item[1256] Ancient Metal Leggings (average): 224
+Item[1257] Ancient Metal Chain Leggings (average): 112
+Item[1258] Ancient Metal Boots (average): 128
+Item[1259] Ancient Metal Chain Boots (average): 64
+Item[1262] Ancient Metal Hatchet (average): 6400
+Item[1263] 钓鱼竿 (ancient_metal): 32
+Item[1264] 萝卜钓竿 (ancient_metal): 25

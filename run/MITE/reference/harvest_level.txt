@@ -1,0 +1,288 @@
+Only blocks and tools with a harvest level greater than 0 are listed.
+
+Block Harvest Level
+-------------------
+Block[1] 石头: 2
+Block[4] 圆石: 2
+Block[7] 基岩: 100
+Block[14][0] 金矿石: 2
+Block[14][2] 金矿石: 2
+Block[15] 铁矿石: 2
+Block[16] 煤矿石: 2
+Block[17][0] 橡木 (log): 1
+Block[17][1] 云杉木 (log): 1
+Block[17][2] 白桦木 (log): 1
+Block[17][3] 丛林木 (log): 1
+Block[20] 玻璃: 1
+Block[21] 青金石矿石: 2
+Block[22] 青金石块: 2
+Block[23] 发射器: 2
+Block[24][0] 沙石: 1
+Block[24][1] 錾制沙石: 1
+Block[24][2] 平滑沙石: 1
+Block[24][3] Sacred Sandstone: 1
+Block[41] 金块: 3
+Block[42] 铁块: 4
+Block[43][0] Stone Slab (double): 2
+Block[43][1] Sandstone Slab (double): 1
+Block[43][3] Cobblestone Slab (double): 2
+Block[43][4] Bricks Slab (double): 2
+Block[43][5] Stone Bricks Slab (double): 2
+Block[43][6] Nether Brick Slab (double): 2
+Block[43][7] Quartz Slab (double): 2
+Block[44][0] Stone Slab (single): 2
+Block[44][1] Sandstone Slab (single): 1
+Block[44][3] Cobblestone Slab (single): 2
+Block[44][4] Bricks Slab (single): 2
+Block[44][5] Stone Bricks Slab (single): 2
+Block[44][6] Nether Brick Slab (single): 2
+Block[44][7] Quartz Slab (single): 2
+Block[45] 砖块: 2
+Block[48] 苔石: 2
+Block[49] 黑曜石: 3
+Block[52] 刷怪箱: 2
+Block[56] 钻石矿石: 4
+Block[57] 钻石块: 5
+Block[61] Stone Furnace (idle): 2
+Block[62] Stone Furnace (active): 2
+Block[67] 石楼梯: 2
+Block[70] 压力板 (stone): 2
+Block[71] 铁门: 3
+Block[73] 红石矿石 (unlit): 2
+Block[74] 红石矿石 (lit): 2
+Block[79] 冰: 1
+Block[87] 地狱岩: 2
+Block[95][0] Mantle: 100
+Block[95][1] Core: 100
+Block[98][0] 石砖: 2
+Block[98][1] 苔石砖: 2
+Block[98][2] 裂石砖: 2
+Block[98][3] 錾制石砖: 2
+Block[101] 铁栏杆: 3
+Block[108] 砖楼梯: 2
+Block[109] 石砖楼梯: 2
+Block[112] 地狱砖块: 2
+Block[113] 地狱砖栅栏: 2
+Block[114] 地狱砖楼梯: 2
+Block[116] 附魔台 (diamond): 2
+Block[117] Brewing Stand: 3
+Block[118] 炼药锅: 3
+Block[120] 末地传送门 (frame): 2
+Block[121] 末地石: 2
+Block[128] 沙石楼梯: 2
+Block[129] 绿宝石矿石: 3
+Block[130] 末影箱: 2
+Block[133] 绿宝石块: 4
+Block[137] 命令方块: 100
+Block[139][0] 圆石墙: 2
+Block[139][1] 苔石墙: 2
+Block[147] 测重压力板 (轻质): 2
+Block[148] 测重压力板 (重质): 3
+Block[152] 红石块: 3
+Block[153] 下界石英矿石: 2
+Block[154] 漏斗: 3
+Block[155][0] 石英块: 2
+Block[155][1] 錾制石英块: 2
+Block[155][2] 竖纹石英块: 2
+Block[156] 石英楼梯: 2
+Block[158] 投掷器: 2
+Block[159][0] 白色染色粘土 (colored): 1
+Block[159][1] 橙色染色粘土 (colored): 1
+Block[159][2] 品红色染色粘土 (colored): 1
+Block[159][3] 淡蓝色染色粘土 (colored): 1
+Block[159][4] 黄色染色粘土 (colored): 1
+Block[159][5] 黄绿色染色粘土 (colored): 1
+Block[159][6] 粉色染色粘土 (colored): 1
+Block[159][7] 灰色染色粘土 (colored): 1
+Block[159][8] 淡灰色染色粘土 (colored): 1
+Block[159][9] 青色染色粘土 (colored): 1
+Block[159][10] 紫色染色粘土 (colored): 1
+Block[159][11] 蓝色染色粘土 (colored): 1
+Block[159][12] 棕色染色粘土 (colored): 1
+Block[159][13] 绿色染色粘土 (colored): 1
+Block[159][14] 红色染色粘土 (colored): 1
+Block[159][15] 黑色染色粘土 (colored): 1
+Block[172] 硬化粘土: 1
+Block[198][0] Runestone "Nul" (adamantium): 3
+Block[198][1] Runestone "Quas" (adamantium): 3
+Block[198][2] Runestone "Por" (adamantium): 3
+Block[198][3] Runestone "An" (adamantium): 3
+Block[198][4] Runestone "Nox" (adamantium): 3
+Block[198][5] Runestone "Flam" (adamantium): 3
+Block[198][6] Runestone "Vas" (adamantium): 3
+Block[198][7] Runestone "Des" (adamantium): 3
+Block[198][8] Runestone "Ort" (adamantium): 3
+Block[198][9] Runestone "Tym" (adamantium): 3
+Block[198][10] Runestone "Corp" (adamantium): 3
+Block[198][11] Runestone "Lor" (adamantium): 3
+Block[198][12] Runestone "Mani" (adamantium): 3
+Block[198][13] Runestone "Jux" (adamantium): 3
+Block[198][14] Runestone "Ylem" (adamantium): 3
+Block[198][15] Runestone "Sanct" (adamantium): 3
+Block[199] Ancient Metal Bars: 3
+Block[200] Copper Ore: 2
+Block[201] Silver Ore: 2
+Block[202] Mithril Ore: 3
+Block[203] Adamantium Ore: 4
+Block[204] Block of Copper: 3
+Block[205] Block of Silver: 3
+Block[206] Block of Mithril: 5
+Block[207] Block of Adamantium: 6
+Block[208] Copper Door: 2
+Block[209] Silver Door: 2
+Block[210] Golden Door: 2
+Block[211] Mithril Door: 4
+Block[212] Adamantium Door: 5
+Block[213] Copper Bars: 2
+Block[214] Silver Bars: 2
+Block[215] Golden Bars: 2
+Block[216] Mithril Bars: 4
+Block[217] Adamantium Bars: 5
+Block[222] Obsidian Furnace (idle): 3
+Block[223] Obsidian Furnace (active): 3
+Block[224] Netherrack Furnace (idle): 2
+Block[225] Netherrack Furnace (active): 2
+Block[226] Obsidian Slab (double): 3
+Block[227] Obsidian Slab (single): 3
+Block[228] Obsidian Stairs: 3
+Block[239] Copper Strongbox: 3
+Block[240] Silver Strongbox: 3
+Block[241] Golden Strongbox: 3
+Block[242] Iron Strongbox: 4
+Block[243] Mithril Strongbox: 5
+Block[244] Adamantium Strongbox: 6
+Block[245] 附魔台 (emerald): 2
+Block[247][0] Runestone "Nul" (mithril): 3
+Block[247][1] Runestone "Quas" (mithril): 3
+Block[247][2] Runestone "Por" (mithril): 3
+Block[247][3] Runestone "An" (mithril): 3
+Block[247][4] Runestone "Nox" (mithril): 3
+Block[247][5] Runestone "Flam" (mithril): 3
+Block[247][6] Runestone "Vas" (mithril): 3
+Block[247][7] Runestone "Des" (mithril): 3
+Block[247][8] Runestone "Ort" (mithril): 3
+Block[247][9] Runestone "Tym" (mithril): 3
+Block[247][10] Runestone "Corp" (mithril): 3
+Block[247][11] Runestone "Lor" (mithril): 3
+Block[247][12] Runestone "Mani" (mithril): 3
+Block[247][13] Runestone "Jux" (mithril): 3
+Block[247][14] Runestone "Ylem" (mithril): 3
+Block[247][15] Runestone "Sanct" (mithril): 3
+Block[252] Block of Ancient Metal: 4
+Block[253] Ancient Metal Door: 3
+Block[255] Ancient Metal Strongbox: 4
+
+Tool Harvest Level
+------------------
+Item[256] 铁锹: 3
+Item[257] 铁镐: 3
+Item[258] Iron Axe: 3
+Item[267] 铁剑: 3
+Item[283] 金剑: 2
+Item[284] 金锹: 2
+Item[285] 金镐: 2
+Item[286] Golden Axe: 2
+Item[292] 铁锄: 3
+Item[294] 金锄: 2
+Item[359] Iron Shears: 3
+Item[967] Copper Pickaxe: 2
+Item[968] Silver Pickaxe: 2
+Item[969] Mithril Pickaxe: 4
+Item[970] Adamantium Pickaxe: 5
+Item[971] Rusted Iron Pickaxe: 2
+Item[972] Flint Shovel: 1
+Item[973] Copper Shovel: 2
+Item[974] Silver Shovel: 2
+Item[975] Mithril Shovel: 4
+Item[976] Adamantium Shovel: 5
+Item[977] Rusted Iron Shovel: 2
+Item[978] Flint Hatchet: 1
+Item[979] Flint Axe: 1
+Item[980] Copper Axe: 2
+Item[981] Silver Axe: 2
+Item[982] Mithril Axe: 4
+Item[983] Adamantium Axe: 5
+Item[984] Rusted Iron Axe: 2
+Item[985] Copper Hoe: 2
+Item[986] Silver Hoe: 2
+Item[987] Mithril Hoe: 4
+Item[988] Adamantium Hoe: 5
+Item[989] Rusted Iron Hoe: 2
+Item[990] Copper War Hammer: 2
+Item[991] Silver War Hammer: 2
+Item[992] Golden War Hammer: 2
+Item[993] Iron War Hammer: 3
+Item[994] Mithril War Hammer: 4
+Item[995] Adamantium War Hammer: 5
+Item[996] Rusted Iron War Hammer: 2
+Item[997] Copper Mattock: 2
+Item[998] Silver Mattock: 2
+Item[999] Golden Mattock: 2
+Item[1000] Iron Mattock: 3
+Item[1001] Mithril Mattock: 4
+Item[1002] Adamantium Mattock: 5
+Item[1003] Rusted Iron Mattock: 2
+Item[1004] Copper Battle Axe: 2
+Item[1005] Silver Battle Axe: 2
+Item[1006] Golden Battle Axe: 2
+Item[1007] Iron Battle Axe: 3
+Item[1008] Mithril Battle Axe: 4
+Item[1009] Adamantium Battle Axe: 5
+Item[1010] Rusted Iron Battle Axe: 2
+Item[1011] Copper Scythe: 2
+Item[1012] Silver Scythe: 2
+Item[1013] Golden Scythe: 2
+Item[1014] Iron Scythe: 3
+Item[1015] Mithril Scythe: 4
+Item[1016] Adamantium Scythe: 5
+Item[1017] Rusted Iron Scythe: 2
+Item[1018] Copper Shears: 2
+Item[1019] Silver Shears: 2
+Item[1020] Golden Shears: 2
+Item[1021] Mithril Shears: 4
+Item[1022] Adamantium Shears: 5
+Item[1023] Flint Knife: 1
+Item[1028] Copper Sword: 2
+Item[1029] Silver Sword: 2
+Item[1030] Mithril Sword: 4
+Item[1031] Adamantium Sword: 5
+Item[1032] Rusted Iron Sword: 2
+Item[1033] Copper Dagger: 2
+Item[1034] Silver Dagger: 2
+Item[1035] Golden Dagger: 2
+Item[1036] Iron Dagger: 3
+Item[1037] Mithril Dagger: 4
+Item[1038] Adamantium Dagger: 5
+Item[1039] Rusted Iron Dagger: 2
+Item[1050] Copper Knife: 2
+Item[1051] Silver Knife: 2
+Item[1052] Golden Knife: 2
+Item[1053] Iron Knife: 3
+Item[1054] Mithril Knife: 4
+Item[1055] Adamantium Knife: 5
+Item[1056] Rusted Iron Knife: 2
+Item[1057] Ancient Metal Knife: 3
+Item[1175] Copper Hatchet: 2
+Item[1176] Silver Hatchet: 2
+Item[1177] Golden Hatchet: 2
+Item[1178] Iron Hatchet: 3
+Item[1179] Mithril Hatchet: 4
+Item[1180] Adamantium Hatchet: 5
+Item[1181] Rusted Iron Hatchet: 2
+Item[1182] Rusted Iron Shears: 2
+Item[1202] Obsidian Shovel: 2
+Item[1203] Obsidian Knife: 2
+Item[1204] Obsidian Hatchet: 2
+Item[1205] Obsidian Axe: 2
+Item[1239] Ancient Metal Pickaxe: 3
+Item[1240] Ancient Metal Shovel: 3
+Item[1241] Ancient Metal Axe: 3
+Item[1242] Ancient Metal Hoe: 3
+Item[1243] Ancient Metal War Hammer: 3
+Item[1244] Ancient Metal Mattock: 3
+Item[1245] Ancient Metal Battle Axe: 3
+Item[1246] Ancient Metal Scythe: 3
+Item[1247] Ancient Metal Shears: 3
+Item[1248] Ancient Metal Sword: 3
+Item[1249] Ancient Metal Dagger: 3
+Item[1262] Ancient Metal Hatchet: 3

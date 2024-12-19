@@ -1,0 +1,380 @@
+Block Material
+--------------
+Block[1] 石头: stone
+Block[2] 草方块: grass
+Block[3] Dirt: dirt
+Block[4] 圆石: stone
+Block[5][0] 橡木木板: wood
+Block[5][1] 云杉木板: wood
+Block[5][2] 桦木木板: wood
+Block[5][3] 丛林木板: wood
+Block[6][0] 橡树树苗: plants
+Block[6][1] 云杉树苗: plants
+Block[6][2] 桦木树苗: plants
+Block[6][3] 丛林树苗: plants
+Block[7] 基岩: stone
+Block[8] 水 (moving): water
+Block[9] 水 (still): water
+Block[10] 岩浆 (moving): lava
+Block[11] 岩浆 (still): lava
+Block[12] Sand: sand
+Block[13][0] 沙砾: sand
+Block[13][2] Nether Gravel: sand
+Block[14][0] 金矿石: stone
+Block[14][2] 金矿石: stone
+Block[15] 铁矿石: stone
+Block[16] 煤矿石: stone
+Block[17][0] 橡木 (log): wood
+Block[17][1] 云杉木 (log): wood
+Block[17][2] 白桦木 (log): wood
+Block[17][3] 丛林木 (log): wood
+Block[18][0] 橡树树叶: tree_leaves
+Block[18][1] 云杉树叶: tree_leaves
+Block[18][2] 白桦树叶: tree_leaves
+Block[18][3] 丛林树叶: tree_leaves
+Block[19] 海绵: sponge
+Block[20] 玻璃: glass
+Block[21] 青金石矿石: stone
+Block[22] 青金石块: stone
+Block[23] 发射器: stone
+Block[24][0] 沙石: stone
+Block[24][1] 錾制沙石: stone
+Block[24][2] 平滑沙石: stone
+Block[24][3] Sacred Sandstone: stone
+Block[25] 音符盒: wood
+Block[26] 床: cloth
+Block[27] 动力铁轨: circuits
+Block[28] 探测铁轨: circuits
+Block[29] 粘性活塞: piston
+Block[30] 蜘蛛网: web
+Block[31][1] 草 (tall): vine
+Block[31][2] 蕨 (tall): vine
+Block[32][0] 枯死的灌木: vine
+Block[32][1] Witherwood Bush: vine
+Block[33] 活塞: piston
+Block[34] Piston (extension): piston
+Block[35][0] 羊毛: cloth
+Block[35][1] 橙色羊毛: cloth
+Block[35][2] 品红色羊毛: cloth
+Block[35][3] 淡蓝色羊毛: cloth
+Block[35][4] 黄色羊毛: cloth
+Block[35][5] 黄绿色羊毛: cloth
+Block[35][6] 粉红色羊毛: cloth
+Block[35][7] 灰色羊毛: cloth
+Block[35][8] 淡灰色羊毛: cloth
+Block[35][9] 青色羊毛: cloth
+Block[35][10] 紫色羊毛: cloth
+Block[35][11] 蓝色羊毛: cloth
+Block[35][12] 棕色羊毛: cloth
+Block[35][13] 绿色羊毛: cloth
+Block[35][14] 红色羊毛: cloth
+Block[35][15] 黑色羊毛: cloth
+Block[36] Piston (moving): piston
+Block[37] Dandelion: plants
+Block[38][0] Rose: plants
+Block[38][1] Orchid: plants
+Block[38][2] Allium: plants
+Block[38][5] Tulip: plants
+Block[38][7] Dahlia: plants
+Block[38][8] Daisy: plants
+Block[39] 蘑菇 (brown, small): plants
+Block[40] 蘑菇 (red, small): plants
+Block[41] 金块: gold
+Block[42] 铁块: iron
+Block[43][0] Stone Slab (double): stone
+Block[43][1] Sandstone Slab (double): stone
+Block[43][3] Cobblestone Slab (double): stone
+Block[43][4] Bricks Slab (double): stone
+Block[43][5] Stone Bricks Slab (double): stone
+Block[43][6] Nether Brick Slab (double): stone
+Block[43][7] Quartz Slab (double): stone
+Block[44][0] Stone Slab (single): stone
+Block[44][1] Sandstone Slab (single): stone
+Block[44][3] Cobblestone Slab (single): stone
+Block[44][4] Bricks Slab (single): stone
+Block[44][5] Stone Bricks Slab (single): stone
+Block[44][6] Nether Brick Slab (single): stone
+Block[44][7] Quartz Slab (single): stone
+Block[45] 砖块: stone
+Block[46] TNT: tnt
+Block[47] 书架: wood
+Block[48] 苔石: stone
+Block[49] 黑曜石: obsidian
+Block[50] 火把: circuits
+Block[51] 火: fire
+Block[52] 刷怪箱: iron
+Block[53] 橡木楼梯: wood
+Block[54] 箱子: wood
+Block[55] 红石粉: circuits
+Block[56] 钻石矿石: stone
+Block[57] 钻石块: diamond
+Block[58][0] Flint Tool Bench: wood
+Block[58][1] Flint Tool Bench: wood
+Block[58][2] Flint Tool Bench: wood
+Block[58][3] Flint Tool Bench: wood
+Block[58][4] Copper Tool Bench: wood
+Block[58][5] Silver Tool Bench: wood
+Block[58][6] Golden Tool Bench: wood
+Block[58][7] Iron Tool Bench: wood
+Block[58][8] Ancient Metal Tool Bench: wood
+Block[58][9] Mithril Tool Bench: wood
+Block[58][10] Adamantium Tool Bench: wood
+Block[58][11] Obsidian Tool Bench: wood
+Block[58][12] Obsidian Tool Bench: wood
+Block[58][13] Obsidian Tool Bench: wood
+Block[58][14] Obsidian Tool Bench: wood
+Block[59] Wheat (living): plants
+Block[60] 耕地: dirt
+Block[61] Stone Furnace (idle): stone
+Block[62] Stone Furnace (active): stone
+Block[63] 告示牌 (standing): wood
+Block[64] 木门: wood
+Block[65] 梯子: circuits
+Block[66] 铁轨: circuits
+Block[67] 石楼梯: stone
+Block[68] 告示牌 (mounted): wood
+Block[69] 拉杆: circuits
+Block[70] 压力板 (stone): stone
+Block[71] 铁门: iron
+Block[72] 压力板 (wood): wood
+Block[73] 红石矿石 (unlit): stone
+Block[74] 红石矿石 (lit): stone
+Block[75] 红石火把 (unlit): circuits
+Block[76] 红石火把 (lit): circuits
+Block[77] 按钮 (stone): circuits
+Block[78][0] 雪 (thin): snow
+Block[78][3] 雪 (slab): snow
+Block[79] 冰: ice
+Block[80] 雪 (block): crafted_snow
+Block[81] 仙人掌: cactus
+Block[82] 粘土块: clay
+Block[83] 甘蔗: plants
+Block[84] 唱片机: wood
+Block[85] 栅栏: wood
+Block[86] 南瓜: pumpkin
+Block[87] 地狱岩: netherrack
+Block[88] 灵魂沙: sand
+Block[89] 荧石: glass
+Block[90] 传送门: portal
+Block[91] 南瓜灯: pumpkin
+Block[92] 蛋糕: cake
+Block[93] Redstone Repeater (idle): circuits
+Block[94] Redstone Repeater (active): circuits
+Block[95][0] Mantle: stone
+Block[95][1] Core: stone
+Block[96] 活板门: wood
+Block[97][0] 石头怪物蛋: clay
+Block[97][1] 圆石怪物蛋: clay
+Block[97][2] 石砖怪物蛋: clay
+Block[97][3] Netherrack Monster Egg: clay
+Block[97][4] 石头怪物蛋: clay
+Block[98][0] 石砖: stone
+Block[98][1] 苔石砖: stone
+Block[98][2] 裂石砖: stone
+Block[98][3] 錾制石砖: stone
+Block[99] 蘑菇 (brown, giant): wood
+Block[100] 蘑菇 (red, giant): wood
+Block[101] 铁栏杆: iron
+Block[102] 玻璃板: glass
+Block[103] 西瓜: pumpkin
+Block[104] Stem (pumpkin): plants
+Block[105] Stem (melon): plants
+Block[106] 藤蔓: vine
+Block[107] 栅栏门: wood
+Block[108] 砖楼梯: stone
+Block[109] 石砖楼梯: stone
+Block[110] 菌丝: grass
+Block[111] 睡莲: plants
+Block[112] 地狱砖块: netherrack
+Block[113] 地狱砖栅栏: netherrack
+Block[114] 地狱砖楼梯: netherrack
+Block[115] 地狱疣: plants
+Block[116] 附魔台 (diamond): stone
+Block[117] Brewing Stand: iron
+Block[118] 炼药锅: iron
+Block[119] End Portal: portal
+Block[120] 末地传送门 (frame): stone
+Block[121] 末地石: stone
+Block[122] 龙蛋: dragon_egg
+Block[123] 红石灯 (unlit): redstone_light
+Block[124] 红石灯 (lit): redstone_light
+Block[125][0] Oak Wood Slab (double): wood
+Block[125][1] Spruce Wood Slab (double): wood
+Block[125][2] Birch Wood Slab (double): wood
+Block[125][3] Jungle Wood Slab (double): wood
+Block[126][0] Oak Wood Slab (single): wood
+Block[126][1] Spruce Wood Slab (single): wood
+Block[126][2] Birch Wood Slab (single): wood
+Block[126][3] Jungle Wood Slab (single): wood
+Block[127] 可可果: plants
+Block[128] 沙石楼梯: stone
+Block[129] 绿宝石矿石: stone
+Block[130] 末影箱: stone
+Block[131] 绊线钩: circuits
+Block[132] 绊线: circuits
+Block[133] 绿宝石块: emerald
+Block[134] 云杉木楼梯: wood
+Block[135] 桦木楼梯: wood
+Block[136] 丛林木楼梯: wood
+Block[137] 命令方块: iron
+Block[138] 信标: glass
+Block[139][0] 圆石墙: stone
+Block[139][1] 苔石墙: stone
+Block[140] Flower Pot: circuits
+Block[141] 胡萝卜 (living): plants
+Block[142] 马铃薯 (living): plants
+Block[143] 按钮 (wood): circuits
+Block[144] Skull: circuits
+Block[145][0] Iron Anvil: anvil
+Block[145][1] Worn Iron Anvil: anvil
+Block[145][2] Badly Worn Iron Anvil: anvil
+Block[146] 陷阱箱: wood
+Block[147] 测重压力板 (轻质): gold
+Block[148] 测重压力板 (重质): iron
+Block[149] Comparator (idle): circuits
+Block[150] Comparator (active): circuits
+Block[151] 阳光传感器: wood
+Block[152] 红石块: redstone
+Block[153] 下界石英矿石: stone
+Block[154] 漏斗: iron
+Block[155][0] 石英块: quartz
+Block[155][1] 錾制石英块: quartz
+Block[155][2] 竖纹石英块: quartz
+Block[156] 石英楼梯: quartz
+Block[157] 激活铁轨: circuits
+Block[158] 投掷器: stone
+Block[159][0] 白色染色粘土 (colored): hardened_clay
+Block[159][1] 橙色染色粘土 (colored): hardened_clay
+Block[159][2] 品红色染色粘土 (colored): hardened_clay
+Block[159][3] 淡蓝色染色粘土 (colored): hardened_clay
+Block[159][4] 黄色染色粘土 (colored): hardened_clay
+Block[159][5] 黄绿色染色粘土 (colored): hardened_clay
+Block[159][6] 粉色染色粘土 (colored): hardened_clay
+Block[159][7] 灰色染色粘土 (colored): hardened_clay
+Block[159][8] 淡灰色染色粘土 (colored): hardened_clay
+Block[159][9] 青色染色粘土 (colored): hardened_clay
+Block[159][10] 紫色染色粘土 (colored): hardened_clay
+Block[159][11] 蓝色染色粘土 (colored): hardened_clay
+Block[159][12] 棕色染色粘土 (colored): hardened_clay
+Block[159][13] 绿色染色粘土 (colored): hardened_clay
+Block[159][14] 红色染色粘土 (colored): hardened_clay
+Block[159][15] 黑色染色粘土 (colored): hardened_clay
+Block[170] 干草块: plants
+Block[171][0] 地毯: carpet
+Block[171][1] 橙色地毯: carpet
+Block[171][2] 品红色地毯: carpet
+Block[171][3] 淡蓝色地毯: carpet
+Block[171][4] 黄色地毯: carpet
+Block[171][5] 黄绿色地毯: carpet
+Block[171][6] 粉红色地毯: carpet
+Block[171][7] 灰色地毯: carpet
+Block[171][8] 淡灰色地毯: carpet
+Block[171][9] 青色地毯: carpet
+Block[171][10] 紫色地毯: carpet
+Block[171][11] 蓝色地毯: carpet
+Block[171][12] 棕色地毯: carpet
+Block[171][13] 绿色地毯: carpet
+Block[171][14] 红色地毯: carpet
+Block[171][15] 黑色地毯: carpet
+Block[172] 硬化粘土: hardened_clay
+Block[173] 煤炭块: coal
+Block[198][0] Runestone "Nul" (adamantium): obsidian
+Block[198][1] Runestone "Quas" (adamantium): obsidian
+Block[198][2] Runestone "Por" (adamantium): obsidian
+Block[198][3] Runestone "An" (adamantium): obsidian
+Block[198][4] Runestone "Nox" (adamantium): obsidian
+Block[198][5] Runestone "Flam" (adamantium): obsidian
+Block[198][6] Runestone "Vas" (adamantium): obsidian
+Block[198][7] Runestone "Des" (adamantium): obsidian
+Block[198][8] Runestone "Ort" (adamantium): obsidian
+Block[198][9] Runestone "Tym" (adamantium): obsidian
+Block[198][10] Runestone "Corp" (adamantium): obsidian
+Block[198][11] Runestone "Lor" (adamantium): obsidian
+Block[198][12] Runestone "Mani" (adamantium): obsidian
+Block[198][13] Runestone "Jux" (adamantium): obsidian
+Block[198][14] Runestone "Ylem" (adamantium): obsidian
+Block[198][15] Runestone "Sanct" (adamantium): obsidian
+Block[199] Ancient Metal Bars: ancient_metal
+Block[200] Copper Ore: stone
+Block[201] Silver Ore: stone
+Block[202] Mithril Ore: stone
+Block[203] Adamantium Ore: stone
+Block[204] Block of Copper: copper
+Block[205] Block of Silver: silver
+Block[206] Block of Mithril: mithril
+Block[207] Block of Adamantium: adamantium
+Block[208] Copper Door: copper
+Block[209] Silver Door: silver
+Block[210] Golden Door: gold
+Block[211] Mithril Door: mithril
+Block[212] Adamantium Door: adamantium
+Block[213] Copper Bars: copper
+Block[214] Silver Bars: silver
+Block[215] Golden Bars: gold
+Block[216] Mithril Bars: mithril
+Block[217] Adamantium Bars: adamantium
+Block[218] Clay Oven (idle): clay
+Block[219] Clay Oven (active): clay
+Block[220] Sandstone Oven (idle): sand
+Block[221] Sandstone Oven (active): sand
+Block[222] Obsidian Furnace (idle): obsidian
+Block[223] Obsidian Furnace (active): obsidian
+Block[224] Netherrack Furnace (idle): netherrack
+Block[225] Netherrack Furnace (active): netherrack
+Block[226] Obsidian Slab (double): obsidian
+Block[227] Obsidian Slab (single): obsidian
+Block[228] Obsidian Stairs: obsidian
+Block[229][0] Copper Anvil: anvil
+Block[229][1] Worn Copper Anvil: anvil
+Block[229][2] Badly Worn Copper Anvil: anvil
+Block[230][0] Silver Anvil: anvil
+Block[230][1] Worn Silver Anvil: anvil
+Block[230][2] Badly Worn Silver Anvil: anvil
+Block[231][0] Golden Anvil: anvil
+Block[231][1] Worn Golden Anvil: anvil
+Block[231][2] Badly Worn Golden Anvil: anvil
+Block[232][0] Mithril Anvil: anvil
+Block[232][1] Worn Mithril Anvil: anvil
+Block[232][2] Badly Worn Mithril Anvil: anvil
+Block[233][0] Adamantium Anvil: anvil
+Block[233][1] Worn Adamantium Anvil: anvil
+Block[233][2] Badly Worn Adamantium Anvil: anvil
+Block[234] Onions (living): plants
+Block[235] Wheat (dead): plants
+Block[236] 胡萝卜 (dead): plants
+Block[237] 马铃薯 (dead): plants
+Block[238] Onions (dead): plants
+Block[239] Copper Strongbox: copper
+Block[240] Silver Strongbox: silver
+Block[241] Golden Strongbox: gold
+Block[242] Iron Strongbox: iron
+Block[243] Mithril Strongbox: mithril
+Block[244] Adamantium Strongbox: adamantium
+Block[245] 附魔台 (emerald): stone
+Block[246] Spark: fire
+Block[247][0] Runestone "Nul" (mithril): obsidian
+Block[247][1] Runestone "Quas" (mithril): obsidian
+Block[247][2] Runestone "Por" (mithril): obsidian
+Block[247][3] Runestone "An" (mithril): obsidian
+Block[247][4] Runestone "Nox" (mithril): obsidian
+Block[247][5] Runestone "Flam" (mithril): obsidian
+Block[247][6] Runestone "Vas" (mithril): obsidian
+Block[247][7] Runestone "Des" (mithril): obsidian
+Block[247][8] Runestone "Ort" (mithril): obsidian
+Block[247][9] Runestone "Tym" (mithril): obsidian
+Block[247][10] Runestone "Corp" (mithril): obsidian
+Block[247][11] Runestone "Lor" (mithril): obsidian
+Block[247][12] Runestone "Mani" (mithril): obsidian
+Block[247][13] Runestone "Jux" (mithril): obsidian
+Block[247][14] Runestone "Ylem" (mithril): obsidian
+Block[247][15] Runestone "Sanct" (mithril): obsidian
+Block[248] Flower Pot: circuits
+Block[249][12] Blueberry Bush: plants
+Block[250] Large Clay Oven (idle): hardened_clay
+Block[251] Large Clay Oven (active): hardened_clay
+Block[252] Block of Ancient Metal: ancient_metal
+Block[253] Ancient Metal Door: ancient_metal
+Block[254][0] Ancient Metal Anvil: anvil
+Block[254][1] Worn Ancient Metal Anvil: anvil
+Block[254][2] Badly Worn Ancient Metal Anvil: anvil
+Block[255] Ancient Metal Strongbox: ancient_metal

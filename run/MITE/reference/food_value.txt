@@ -1,0 +1,76 @@
+Food Value (satiation, nutrition, protein, phytonutrients, IR=Insulin Response)
+----------
+Item[39] 蘑菇 (brown, small): 1, 1, 0, 0
+Item[40] 蘑菇 (red, small): 1, 1, 0, 0
+Item[92] 蛋糕: 2, 2, 16000, 0
+Item[260] 苹果: 2, 1, 0, 8000 IR=4800
+Item[282] 蘑菇煲: 2, 4, 0, 0
+Item[295] 小麦种子: 1, 0, 0, 0
+Item[297] 面包: 8, 2, 0, 0
+Item[319] 生猪排: 4, 4, 32000, 0
+Item[320] 熟猪排: 8, 8, 64000, 0
+Item[322] 金苹果: 2, 1, 0, 8000 IR=4800
+Item[326] Iron Bucket of Water: 0, 0, 0, 0
+Item[335] Iron Bucket of Milk: 0, 4, 32000, 0
+Item[344] 鸡蛋: 1, 3, 24000, 0
+Item[349] Raw Fish: 3, 3, 24000, 0
+Item[350] Cooked Fish: 6, 6, 48000, 0
+Item[353] 糖: 1, 0, 0, 0 IR=4800
+Item[357] 曲奇: 3, 1, 0, 0 IR=1200
+Item[360] 西瓜 (slice): 1, 1, 0, 8000 IR=4800
+Item[361] 南瓜种子: 1, 2, 0, 0
+Item[362] 西瓜种子: 1, 1, 0, 0
+Item[363] Raw Steak: 5, 5, 40000, 0
+Item[364] Cooked Steak: 10, 10, 80000, 0
+Item[365] 生鸡肉: 3, 3, 24000, 0
+Item[366] 熟鸡肉: 6, 6, 48000, 0
+Item[367] 腐肉: 2, 1, 8000, 0
+Item[372] 地狱疣: 1, 1, 0, 0
+Item[373] 水瓶: 0, 0, 0, 0
+Item[375] 蜘蛛眼: 0, 1, 8000, 0
+Item[391] 胡萝卜: 1, 2, 0, 16000
+Item[392] 马铃薯: 3, 1, 0, 0
+Item[393] 烤马铃薯: 6, 2, 0, 0
+Item[394] 毒马铃薯: 2, 0, 0, 0
+Item[396] 金萝卜: 1, 2, 0, 16000
+Item[400] 南瓜派: 10, 6, 48000, 48000 IR=4800
+Item[1148] Copper Bucket of Water: 0, 0, 0, 0
+Item[1149] Silver Bucket of Water: 0, 0, 0, 0
+Item[1150] Golden Bucket of Water: 0, 0, 0, 0
+Item[1151] Mithril Bucket of Water: 0, 0, 0, 0
+Item[1152] Adamantium Bucket of Water: 0, 0, 0, 0
+Item[1153] Ancient Metal Bucket of Water: 0, 0, 0, 0
+Item[1160] Copper Bucket of Milk: 0, 4, 32000, 0
+Item[1161] Silver Bucket of Milk: 0, 4, 32000, 0
+Item[1162] Golden Bucket of Milk: 0, 4, 32000, 0
+Item[1163] Mithril Bucket of Milk: 0, 4, 32000, 0
+Item[1164] Adamantium Bucket of Milk: 0, 4, 32000, 0
+Item[1165] Ancient Metal Bucket of Milk: 0, 4, 32000, 0
+Item[1166] Bowl of Milk: 0, 1, 8000, 0
+Item[1167] Bowl of Water: 0, 0, 0, 0
+Item[1172] Raw Lambchop: 3, 3, 24000, 0
+Item[1173] Cooked Lambchop: 6, 6, 48000, 0
+Item[1183] Cheese: 3, 3, 24000, 0
+Item[1185] Dough: 6, 2, 0, 0
+Item[1186] Chocolate: 3, 3, 0, 0 IR=4800
+Item[1187] Onion: 1, 1, 0, 8000
+Item[1188] Beef Stew: 16, 16, 128000, 128000
+Item[1189] Chicken Soup: 10, 10, 80000, 80000
+Item[1190] Vegetable Soup: 6, 6, 0, 48000
+Item[1206] Ice Cream: 5, 4, 32000, 0 IR=4800
+Item[1209] Salad: 1, 1, 0, 8000
+Item[1214] Bottle o' Disenchanting: 0, 0, 0, 0
+Item[1215] Cream of Mushroom Soup: 3, 5, 40000, 0
+Item[1216] Cream of Vegetable Soup: 7, 7, 56000, 56000
+Item[1217] Pumpkin Soup: 1, 2, 0, 16000
+Item[1218] Orange: 2, 1, 0, 8000 IR=4800
+Item[1219] Banana: 2, 1, 0, 8000 IR=4800
+Item[1223] Mashed Potato: 12, 8, 64000, 0
+Item[1224] Sorbet: 4, 2, 0, 16000 IR=9600
+Item[1225] Blueberries: 1, 1, 0, 8000 IR=4800
+Item[1226] Porridge: 4, 2, 0, 16000 IR=9600
+Item[1227] Cereal: 4, 2, 16000, 0 IR=4800
+Item[1229] Raw Fish (large): 5, 5, 40000, 0
+Item[1230] Cooked Fish (large): 10, 10, 80000, 0
+Item[1280] Worm: 0, 1, 8000, 0
+Item[1281] Cooked Worm: 1, 1, 8000, 0

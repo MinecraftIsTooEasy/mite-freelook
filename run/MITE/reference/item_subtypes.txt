@@ -1,0 +1,43 @@
+Item Subtypes
+-------------
+Item[5] 木板: 4 {橡木木板, 云杉木板, 桦木木板, 丛林木板}
+Item[6] Sapling: 4 {橡树树苗, 云杉树苗, 桦木树苗, 丛林树苗}
+Item[13] 沙砾: 2 {沙砾, Nether Gravel}
+Item[14] 金矿石: 2 {金矿石, 金矿石}
+Item[17] 木头 (log): 4 {橡木 (log), 云杉木 (log), 白桦木 (log), 丛林木 (log)}
+Item[18] 树叶: 4 {橡树树叶, 云杉树叶, 白桦树叶, 丛林树叶}
+Item[24] 沙石: 4 {沙石, 錾制沙石, 平滑沙石, Sacred Sandstone}
+Item[31] 草 (tall): 2 {草 (tall), 蕨 (tall)}
+Item[32] 枯死的灌木: 2 {枯死的灌木, Witherwood Bush}
+Item[35] 羊毛: 16 {羊毛, 橙色羊毛, 品红色羊毛, 淡蓝色羊毛, 黄色羊毛, 黄绿色羊毛, 粉红色羊毛, 灰色羊毛, 淡灰色羊毛, 青色羊毛, 紫色羊毛, 蓝色羊毛, 棕色羊毛, 绿色羊毛, 红色羊毛, 黑色羊毛}
+Item[38] Flower: 6 {Rose, Orchid, Allium, Tulip, Dahlia, Daisy}
+Item[43] Stone Slab (double): 7 {Stone Slab (double), Sandstone Slab (double), Cobblestone Slab (double), Bricks Slab (double), Stone Bricks Slab (double), Nether Brick Slab (double), Quartz Slab (double)}
+Item[44] Stone Slab (single): 7 {Stone Slab (single), Sandstone Slab (single), Cobblestone Slab (single), Bricks Slab (single), Stone Bricks Slab (single), Nether Brick Slab (single), Quartz Slab (single)}
+Item[58] 工作台: 15 {Flint Tool Bench, Flint Tool Bench, Flint Tool Bench, Flint Tool Bench, Copper Tool Bench, Silver Tool Bench, Golden Tool Bench, Iron Tool Bench, Ancient Metal Tool Bench, Mithril Tool Bench, Adamantium Tool Bench, Obsidian Tool Bench, Obsidian Tool Bench, Obsidian Tool Bench, Obsidian Tool Bench}
+Item[78] 雪 (thin): 2 {雪 (thin), 雪 (slab)}
+Item[95] Mantle: 2 {Mantle, Core}
+Item[97] Silverfish Stone Egg: 5 {石头怪物蛋, 圆石怪物蛋, 石砖怪物蛋, Netherrack Monster Egg, 石头怪物蛋}
+Item[98] 石砖: 4 {石砖, 苔石砖, 裂石砖, 錾制石砖}
+Item[125] Wooden Slab (double): 4 {Oak Wood Slab (double), Spruce Wood Slab (double), Birch Wood Slab (double), Jungle Wood Slab (double)}
+Item[126] Wooden Slab (single): 4 {Oak Wood Slab (single), Spruce Wood Slab (single), Birch Wood Slab (single), Jungle Wood Slab (single)}
+Item[139] Wall: 2 {圆石墙, 苔石墙}
+Item[145] Iron Anvil: 3 {Iron Anvil, Worn Iron Anvil, Badly Worn Iron Anvil}
+Item[155] Quartz: 3 {石英块, 錾制石英块, 竖纹石英块}
+Item[159] Hardened Clay (colored): 16 {白色染色粘土 (colored), 橙色染色粘土 (colored), 品红色染色粘土 (colored), 淡蓝色染色粘土 (colored), 黄色染色粘土 (colored), 黄绿色染色粘土 (colored), 粉色染色粘土 (colored), 灰色染色粘土 (colored), 淡灰色染色粘土 (colored), 青色染色粘土 (colored), 紫色染色粘土 (colored), 蓝色染色粘土 (colored), 棕色染色粘土 (colored), 绿色染色粘土 (colored), 红色染色粘土 (colored), 黑色染色粘土 (colored)}
+Item[171] Carpet: 16 {地毯, 橙色地毯, 品红色地毯, 淡蓝色地毯, 黄色地毯, 黄绿色地毯, 粉红色地毯, 灰色地毯, 淡灰色地毯, 青色地毯, 紫色地毯, 蓝色地毯, 棕色地毯, 绿色地毯, 红色地毯, 黑色地毯}
+Item[198] Runestone (adamantium): 16 {Runestone "Nul" (adamantium), Runestone "Quas" (adamantium), Runestone "Por" (adamantium), Runestone "An" (adamantium), Runestone "Nox" (adamantium), Runestone "Flam" (adamantium), Runestone "Vas" (adamantium), Runestone "Des" (adamantium), Runestone "Ort" (adamantium), Runestone "Tym" (adamantium), Runestone "Corp" (adamantium), Runestone "Lor" (adamantium), Runestone "Mani" (adamantium), Runestone "Jux" (adamantium), Runestone "Ylem" (adamantium), Runestone "Sanct" (adamantium)}
+Item[229] Copper Anvil: 3 {Copper Anvil, Worn Copper Anvil, Badly Worn Copper Anvil}
+Item[230] Silver Anvil: 3 {Silver Anvil, Worn Silver Anvil, Badly Worn Silver Anvil}
+Item[231] Golden Anvil: 3 {Golden Anvil, Worn Golden Anvil, Badly Worn Golden Anvil}
+Item[232] Mithril Anvil: 3 {Mithril Anvil, Worn Mithril Anvil, Badly Worn Mithril Anvil}
+Item[233] Adamantium Anvil: 3 {Adamantium Anvil, Worn Adamantium Anvil, Badly Worn Adamantium Anvil}
+Item[247] Runestone (mithril): 16 {Runestone "Nul" (mithril), Runestone "Quas" (mithril), Runestone "Por" (mithril), Runestone "An" (mithril), Runestone "Nox" (mithril), Runestone "Flam" (mithril), Runestone "Vas" (mithril), Runestone "Des" (mithril), Runestone "Ort" (mithril), Runestone "Tym" (mithril), Runestone "Corp" (mithril), Runestone "Lor" (mithril), Runestone "Mani" (mithril), Runestone "Jux" (mithril), Runestone "Ylem" (mithril), Runestone "Sanct" (mithril)}
+Item[254] Ancient Metal Anvil: 3 {Ancient Metal Anvil, Worn Ancient Metal Anvil, Badly Worn Ancient Metal Anvil}
+Item[263] 煤炭: 2 {煤炭, 木炭}
+Item[322] 金苹果: 2 {金苹果, Enchanted Golden Apple}
+Item[341] Gelatinous Sphere: 5 {Green Slime, Ochre Jelly, Crimson Blob, Gray Ooze, Black Pudding}
+Item[351] Dye: 16 {墨囊, 玫瑰红, 仙人掌绿, 可可豆, 青金石, 紫色染料, 青色染料, 淡灰色染料, 灰色染料, 粉红色染料, 黄绿色染料, 蒲公英黄, 淡蓝色染料, 品红色染料, 橙色染料, 骨粉}
+Item[358] 地图: * {地图}
+Item[373] 水瓶: 53 {水瓶, Potion of 生命恢复 (0:45), Potion of 生命恢复 II (0:22), Potion of 生命恢复 (2:00), Splash Potion of 生命恢复 (0:33), Splash Potion of 生命恢复 II (0:16), Splash Potion of 生命恢复 (1:30), Potion of 速度 (3:00), Potion of 速度 II (1:30), Potion of 速度 (8:00), Splash Potion of 速度 (2:15), Splash Potion of 速度 II (1:07), Splash Potion of 速度 (6:00), Potion of 防火 (3:00), Potion of 防火 (8:00), Splash Potion of 防火 (2:15), Splash Potion of 防火 (6:00), Potion of 中毒 (0:45), Potion of 中毒 II (0:22), Potion of 中毒 (2:00), Splash Potion of 中毒 (0:33), Splash Potion of 中毒 II (0:16), Splash Potion of 中毒 (1:30), Potion of 瞬间治疗, Potion of 瞬间治疗 II, Splash Potion of 瞬间治疗, Splash Potion of 瞬间治疗 II, Potion of 夜视 (3:00), Potion of 夜视 (8:00), Splash Potion of 夜视 (2:15), Splash Potion of 夜视 (6:00), Potion of 虚弱 (1:30), Potion of 虚弱 (4:00), Splash Potion of 虚弱 (1:07), Splash Potion of 虚弱 (3:00), Potion of 力量 (3:00), Potion of 力量 II (1:30), Potion of 力量 (8:00), Splash Potion of 力量 (2:15), Splash Potion of 力量 II (1:07), Splash Potion of 力量 (6:00), Potion of 缓慢 (1:30), Potion of 缓慢 (4:00), Splash Potion of 缓慢 (1:07), Splash Potion of 缓慢 (3:00), Potion of 瞬间伤害, Potion of 瞬间伤害 II, Splash Potion of 瞬间伤害, Splash Potion of 瞬间伤害 II, Potion of 隐身 (3:00), Potion of 隐身 (8:00), Splash Potion of 隐身 (2:15), Splash Potion of 隐身 (6:00)}
+Item[383] 生成: 53 {生成 爬行者, 生成 骷髅, 生成 蜘蛛, 生成 僵尸, 生成 史莱姆, 生成 恶魂, 生成 僵尸猪人, 生成 末影人, 生成 洞穴蜘蛛, 生成 蠹虫, 生成 烈焰人, 生成 岩浆怪, 生成 蝙蝠, 生成 女巫, 生成 猪, 生成 羊, 生成 牛, 生成 鸡, 生成 鱿鱼, 生成 狼, 生成 哞菇, 生成 豹猫, 生成 马, 生成 Ghoul, 生成 Wight, 生成 Invisible Stalker, 生成 Demon Spider, 生成 Hellhound, 生成 Dire Wolf, 生成 Wood Spider, 生成 Infernal Creeper, 生成 Shadow, 生成 Fire Elemental, 生成 Black Widow Spider, 生成 Revenant, 生成 Earth Elemental, 生成 Jelly, 生成 Blob, 生成 Ooze, 生成 Pudding, 生成 Vampire Bat, 生成 Giant Vampire Bat, 生成 Longdead, 生成 Longdead Guardian, 生成 Nightwing, 生成 Netherspawn, 生成 Copperspine, 生成 Hoary Silverfish, 生成 Earth Elemental, 生成 Bone Lord, 生成 Ancient Bone Lord, 生成 Phase Spider, 生成 村民}
+Item[397] Skull: 5 {骷髅头颅, 凋灵骷髅头颅, 僵尸的头, 头, 爬行者的头}

@@ -1,0 +1,33 @@
+{
+  "HotKeys": {
+    "manyLib.openMenu": {
+      "hotkey": {
+        "keys": "M,C"
+      },
+      "comment": "按下打开ManyLib数值配置页面"
+    },
+    "manyLib.openModMenu": {
+      "hotkey": {
+        "keys": "M"
+      },
+      "comment": "按下打开使用ManyLib的模组的菜单"
+    }
+  },
+  "Values": {
+    "manyLib.hideValueButton": {
+      "value": true,
+      "comment": "隐藏在游戏主界面以及暂停界面的数值配置按钮"
+    },
+    "manyLib.hoverInfoY": {
+      "value": 70,
+      "useSlider": false,
+      "comment": "从屏幕底部往上数"
+    },
+    "高亮颜色": {
+      "color": "#77777777"
+    },
+    "标题格式": {
+      "value": "WHITE"
+    }
+  }
+}
