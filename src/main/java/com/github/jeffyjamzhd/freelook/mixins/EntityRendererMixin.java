@@ -7,6 +7,7 @@ import net.minecraft.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.ModifyArgs;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
@@ -47,21 +48,25 @@ public abstract class EntityRendererMixin {
         CameraEvent.glRotateCam(1, par1);
     }
 
-    @ModifyArgs(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
-            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 0))
-    private void suppressMouseSmoothCam(Args args) {
-        // If freelooking, zero out args
-        args.set(0, CameraEvent.flState != 0 ? 0.0f : (float) args.get(0) * (float) CameraEvent.getCurZoom());
-        args.set(1, CameraEvent.flState != 0 ? 0.0f : (float) args.get(1) * (float) CameraEvent.getCurZoom());
-    }
+    @ModifyArg(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 0), index = 0)
+    private float suppressMouseSmoothCamX(float x) {
+        return CameraEvent.flState != 0 ? 0.0f : x * (float) CameraEvent.getCurZoom(); }
 
-    @ModifyArgs(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
-            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 1))
-    private void suppressMouse(Args args) {
-        // If freelooking, zero out args
-        args.set(0, CameraEvent.flState != 0 ? 0.0f : (float) args.get(0) * (float) CameraEvent.getCurZoom());
-        args.set(1, CameraEvent.flState != 0 ? 0.0f : (float) args.get(1) * (float) CameraEvent.getCurZoom());
-    }
+    @ModifyArg(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 0), index = 1)
+    private float suppressMouseSmoothCamY(float y) {
+        return CameraEvent.flState != 0 ? 0.0f : y * (float) CameraEvent.getCurZoom(); }
+
+    @ModifyArg(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 1), index = 0)
+    private float suppressMouseCamX(float x) {
+        return CameraEvent.flState != 0 ? 0.0f : x * (float) CameraEvent.getCurZoom(); }
+
+    @ModifyArg(method = "updateCameraAndRender(F)V", at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/EntityClientPlayerMP;setAngles(FF)V", ordinal = 1), index = 1)
+    private float suppressMouseCamY(float y) {
+        return CameraEvent.flState != 0 ? 0.0f : y * (float) CameraEvent.getCurZoom(); }
 
     @Inject(method = "getFOVModifier(FZ)F", at = @At("RETURN"), cancellable = true)
     private void setZoomLevel(float par1, boolean par2, CallbackInfoReturnable<Float> cir) {

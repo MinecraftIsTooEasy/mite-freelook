@@ -1,12 +1,17 @@
 package com.github.jeffyjamzhd.freelook.config;
 
+import com.github.jeffyjamzhd.freelook.FreeLookAddon;
+import com.github.jeffyjamzhd.freelook.event.CameraEvent;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import fi.dy.masa.malilib.config.ConfigTab;
 import fi.dy.masa.malilib.config.ConfigUtils;
 import fi.dy.masa.malilib.config.SimpleConfigs;
 import fi.dy.masa.malilib.config.options.*;
+import fi.dy.masa.malilib.hotkeys.KeyAction;
+import fi.dy.masa.malilib.hotkeys.KeybindSettings;
 import fi.dy.masa.malilib.util.JsonUtils;
+import net.minecraft.StatCollector;
 import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
@@ -15,23 +20,19 @@ import java.util.List;
 public class Configs extends SimpleConfigs {
     public static final ConfigBoolean enableF5 =
             new ConfigBoolean("freelook.enableF5", false,
-            "Enables the use of F5 camera modes, though is intended to be disabled. (DEFAULT: false)");
+                    "freelook.enableF5");
     public static final ConfigBoolean smoothZoom =
             new ConfigBoolean("freelook.smoothZoom", false,
-            "Enables smooth camera movement on zoom. When disabled, camera sensitivity will be adjusted\n" +
-                    "# to fit zoom percentage instead. (DEFAULT: false)");
-    public static final ConfigEnum zoomType =
-            new ConfigEnum("freelook.zoomType", ZoomEnum.REALISTIC,
-            "Type of zoom to emulate. (DEFAULT: 0)\n" +
-            "# 0 - \"Realistic\": Simulates effects of squinting (tunnel vision, slower zoom)\n" +
-            "# 1 - Interpolated: Fast, interpolated zooming\n" +
-            "# 2 - Classic: Optifine-like snap zoom");
+                    "freelook.smoothZoom");
+    public static final ConfigEnum<ZoomEnum> zoomType =
+            new ConfigEnum<>("freelook.zoomType", ZoomEnum.REALISTIC,
+                    "freelook.zoomType");
     public static final ConfigDoubleZF zoomFactor =
             new ConfigDoubleZF("freelook.zoomFactor", 200.0, 200.0, 1000.0,
-                    "Percentage to zoom in FOV by. (DEFAULT: 200.0)");
+                    "freelook.zoomFactor");
     public static final ConfigDoubleFR freelookRange =
             new ConfigDoubleFR("freelook.freelookRange", 45.0, 45.0, 180.0,
-                    "Range of view in Freelook mode. (DEFAULT: 45.0 deg.)");
+                    "freelook.freelookRange");
     public static final ConfigHotkey keyZoom =
             new ConfigHotkey("freelook.key.zoom", Keyboard.KEY_F);
     public static final ConfigHotkey keyFreelook =
@@ -47,6 +48,24 @@ public class Configs extends SimpleConfigs {
         general = List.of(enableF5, smoothZoom, zoomType, zoomFactor, freelookRange);
         hotkeys = List.of(keyZoom, keyFreelook);
 
+        KeybindSettings defaultKb = KeybindSettings.create(KeybindSettings.Context.INGAME, KeyAction.BOTH, true, true, false, true);
+        keyZoom.getKeybind().setSettings(defaultKb);
+        keyFreelook.getKeybind().setSettings(defaultKb);
+
+        keyZoom.getKeybind().setCallback(((keyAction, iKeybind) -> {
+            CameraEvent.setZoom(iKeybind.isKeybindHeld());
+            return true;
+        }));
+        keyFreelook.getKeybind().setCallback(((keyAction, iKeybind) -> {
+            if (CameraEvent.flState == CameraEvent.FL_OFF && iKeybind.isKeybindHeld()) {
+                CameraEvent.setFreelook(CameraEvent.FL_ON);
+            } else if (CameraEvent.flState == CameraEvent.FL_ON && !iKeybind.isKeybindHeld()) {
+                CameraEvent.setFreelook(CameraEvent.FL_LERP);
+            }
+            return true;
+        }));
+        System.out.println(ZoomEnum.REALISTIC.name());
+
         tabs.add(new ConfigTab("freelook.freelook", general));
         tabs.add(new ConfigTab("freelook.hotkeys", hotkeys));
 
@@ -54,7 +73,12 @@ public class Configs extends SimpleConfigs {
     }
 
     public Configs() {
-        super("freelook.freelook", hotkeys, general, "freelook.desc");
+        super(
+                StatCollector.translateToLocal("freelook.freelook"),
+                hotkeys,
+                general,
+                StatCollector.translateToLocal("freelook.desc")
+        );
     }
 
     @Override
@@ -72,6 +96,7 @@ public class Configs extends SimpleConfigs {
         ConfigUtils.writeConfigBase(root, "freelook", general);
         ConfigUtils.writeConfigBase(root, "hotkeys", hotkeys);
         JsonUtils.writeJsonToFile(root, this.optionsFile);
+        FreeLookAddon.getInstance().handleConfigProperties();
     }
 
     @Override
@@ -85,6 +110,7 @@ public class Configs extends SimpleConfigs {
                 ConfigUtils.readConfigBase(root, "freelook", general);
                 ConfigUtils.readConfigBase(root, "hotkeys", hotkeys);
             }
+            FreeLookAddon.getInstance().handleConfigProperties();
         }
     }
 
@@ -94,8 +120,11 @@ public class Configs extends SimpleConfigs {
         }
         @Override
         public String getDisplayText() {
-            return super.getStringValue() + "%";
+            return String.format("%.0f", this.getDoubleValue()) + "%";
         }
+        @Override
+        public void setDoubleValue(double value) { super.setDoubleValue(roundToNotch(value, 16, this.getMinDoubleValue(), this.getMaxDoubleValue())); }
+
     }
 
     public static class ConfigDoubleFR extends ConfigDouble {
@@ -104,7 +133,19 @@ public class Configs extends SimpleConfigs {
         }
         @Override
         public String getDisplayText() {
-            return super.getStringValue() + " deg.";
+            return String.format("%.0f", this.getDoubleValue()) + StatCollector.translateToLocal("metric.degrees");
         }
+        @Override
+        public void setDoubleValue(double value) { super.setDoubleValue(roundToNotch(value, 9, this.getMinDoubleValue(), this.getMaxDoubleValue())); }
+    }
+
+    private static double roundToNotch(double value, int notches, double min, double max) {
+        double fac = (max - min) / notches;
+        double facMargin = fac / 2;
+        for (int i = 0; i < notches; i++) {
+            if (value - min < (fac * i) + facMargin) return (fac * i) + min;
+            else if (value - min < fac * (i + 1)) return (fac * (i + 1)) + min;
+        }
+        return max;
     }
 }

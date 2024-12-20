@@ -35,7 +35,7 @@ public abstract class GuiIngameMixin extends Gui {
     @Inject(method = "renderGameOverlay(FZII)V",
               at = @At(value = "INVOKE",
                       target = "Lnet/minecraft/GuiIngame;drawTexturedModalRect(IIIIII)V",
-                      ordinal = 2))
+                      ordinal = 3))
     private void crosshairGLBegin(float par1, boolean par2, int par3, int par4, CallbackInfo ci) {
         float fac = 1.0F - (Math.min(CameraEvent.getZoomOverlayFac() + CameraEvent.getFreelookFac(), 1.0F));
         GL11.glColor4f(fac, fac, fac, 1.0F);
@@ -45,7 +45,7 @@ public abstract class GuiIngameMixin extends Gui {
     @Inject(method = "renderGameOverlay(FZII)V",
             at = @At(value = "INVOKE",
                     target = "Lnet/minecraft/GuiIngame;drawTexturedModalRect(IIIIII)V",
-                    ordinal = 2, shift = At.Shift.AFTER))
+                    ordinal = 3, shift = At.Shift.AFTER))
     private void crosshairGLEnd(float par1, boolean par2, int par3, int par4, CallbackInfo ci) {
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
     }

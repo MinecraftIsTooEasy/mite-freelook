@@ -1,1 +1,24 @@
-tile.stonebrickWall.name=石砖墙
+freelook.freelook=自由观看
+freelook.desc=保持头部旋转...
+
+config.tab.freelook.freelook=自由观看
+config.tab.freelook.hotkeys=热键
+
+config.name.freelook.enableF5=启用 F5
+config.name.freelook.smoothZoom=平滑变焦
+config.name.freelook.zoomType=变焦类型
+config.name.freelook.zoomFactor=变焦倍数
+config.name.freelook.freelookRange=自由观察范围
+config.name.freelook.key.zoom=飞涨
+config.name.freelook.key.freelook=自由观看
+config.enum.freelook.zoomType.REALISTIC=“实际的”
+config.enum.freelook.zoomType.INTERPOLATED=插值
+config.enum.freelook.zoomType.CLASSIC=经典的
+
+config.comment.freelook.enableF5=允许使用 F5 相机模式，但本应禁用它。
+config.comment.freelook.smoothZoom=允许相机在变焦时平滑移动，但不建议这样做。
+config.comment.freelook.zoomType=更改缩放功能的方式。 “真实”- 模拟眯眼的效果。插值 - 快速插值缩放。经典 - 类似 Optifine 的快速缩放
+config.comment.freelook.zoomFactor=放大的百分比。
+config.comment.freelook.freelookRange=自由观察模式下的自由度。
+
+metric.degrees=度

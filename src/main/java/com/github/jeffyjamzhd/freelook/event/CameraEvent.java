@@ -27,39 +27,22 @@ public class CameraEvent {
     private static long last;
     private static float delta;
 
-    private static final int FL_OFF = 0;
-    private static final int FL_LERP = 1;
-    private static final int FL_ON = 2;
+    public static final int FL_OFF = 0;
+    public static final int FL_LERP = 1;
+    public static final int FL_ON = 2;
     public static int flState = FL_OFF;
     private static double mdeltaX, mdeltaY;
     public static float yaw, pitch, prevYaw, prevPitch;
     private static long lerpStart = 0, lerpTime = 0;
 
-    // Handles input
-    public static void onClientTick() {
-        // Handle zoom keybind
-        if (FreeLookAddon.zoom_key.pressed && !zoomToggled) {
-            setZoom(true);
-        } else if (!FreeLookAddon.zoom_key.pressed && zoomToggled) {
-            setZoom(false);
-        }
-
-        // Handle freelook keybind
-        if (FreeLookAddon.freelook_key.pressed && flState == FL_OFF) {
-            setFreelook(FL_ON);
-        } else if (!FreeLookAddon.freelook_key.pressed && flState == FL_ON) {
-            setFreelook(FL_LERP);
-        }
-    }
-
     // Sets zoom toggle, among other values
-    private static void setZoom(boolean toggle) {
+    public static void setZoom(boolean toggle) {
         zoomToggled = toggle;
         if (FreeLookAddon.smoothZoom) getMinecraft().gameSettings.smoothCamera = toggle;
     }
 
     // Sets freelook state
-    private static void setFreelook(int state) {
+    public static void setFreelook(int state) {
         flState = state;
         if (flState == FL_ON) {
             ogPitch = getMinecraft().thePlayer.rotationPitch;
@@ -113,7 +96,6 @@ public class CameraEvent {
                 setFreelook(FL_OFF);
         }
         flFac = (flFac + (((flState != FL_ON) ? 0.0F : 1.0F) - flFac) * (12.0F * delta));
-        //System.out.println(yaw + "    " + pitch);
     }
 
     // Updates mouse input

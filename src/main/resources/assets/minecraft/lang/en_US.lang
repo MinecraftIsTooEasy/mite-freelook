@@ -1,1 +1,24 @@
-tile.stonebrickWall.name=stonebrickWall
+freelook.freelook=Freelook
+freelook.desc=Keep your head on a swivel...
+
+config.tab.freelook.freelook=Freelook
+config.tab.freelook.hotkeys=Hotkeys
+
+config.name.freelook.enableF5=Enable F5
+config.name.freelook.smoothZoom=Smooth Zoom
+config.name.freelook.zoomType=Zoom Type
+config.name.freelook.zoomFactor=Zoom Factor
+config.name.freelook.freelookRange=Freelook Range
+config.name.freelook.key.zoom=Zoom
+config.name.freelook.key.freelook=Freelook
+config.enum.freelook.zoomType.REALISTIC="Realistic"
+config.enum.freelook.zoomType.INTERPOLATED=Interpolated
+config.enum.freelook.zoomType.CLASSIC=Classic
+
+config.comment.freelook.enableF5=Enables the use of F5 camera modes, though it's intended to be disabled.
+config.comment.freelook.smoothZoom=Enables smooth camera movement on zoom, though it's not recommended.
+config.comment.freelook.zoomType=Changes how zooming functions. "Realistic" - Simulates effects of squinting. Interpolated - Fast and interpolated zooming. Classic - Optifine-like snap zooming
+config.comment.freelook.zoomFactor=Percentage to zoom in with.
+config.comment.freelook.freelookRange=Degrees of freedom in freelook mode.
+
+metric.degrees=deg.

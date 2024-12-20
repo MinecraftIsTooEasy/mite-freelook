@@ -9,6 +9,7 @@
 	"name": "MiTE Freelook",
 	"description": "Take a good look at your surroundings...",
 	"authors": ["jeffyjamzhd"],
+	"icon": "assets/minecraft/icon.png",
 	"entrypoints": {
 		"main": ["com.github.jeffyjamzhd.freelook.FreeLookAddon"],
 		"modmenu": ["com.github.jeffyjamzhd.freelook.compat.ModMenu"]
