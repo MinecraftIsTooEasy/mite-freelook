@@ -64,7 +64,6 @@ public class Configs extends SimpleConfigs {
             }
             return true;
         }));
-        System.out.println(ZoomEnum.REALISTIC.name());
 
         tabs.add(new ConfigTab("freelook.freelook", general));
         tabs.add(new ConfigTab("freelook.hotkeys", hotkeys));
@@ -74,10 +73,10 @@ public class Configs extends SimpleConfigs {
 
     public Configs() {
         super(
-                StatCollector.translateToLocal("freelook.freelook"),
+                "Freelook",
                 hotkeys,
                 general,
-                StatCollector.translateToLocal("freelook.desc")
+                "Keep your head on a swivel..."
         );
     }
 
