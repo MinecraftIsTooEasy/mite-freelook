@@ -28,10 +28,10 @@ public class Configs extends SimpleConfigs {
             new ConfigEnum<>("freelook.zoomType", ZoomEnum.REALISTIC,
                     "freelook.zoomType");
     public static final ConfigDoubleZF zoomFactor =
-            new ConfigDoubleZF("freelook.zoomFactor", 200.0, 200.0, 1000.0,
+            new ConfigDoubleZF("freelook.zoomFactor", 400.0, 200.0, 1000.0,
                     "freelook.zoomFactor");
     public static final ConfigDoubleFR freelookRange =
-            new ConfigDoubleFR("freelook.freelookRange", 45.0, 45.0, 180.0,
+            new ConfigDoubleFR("freelook.freelookRange", 90.0, 45.0, 180.0,
                     "freelook.freelookRange");
     public static final ConfigHotkey keyZoom =
             new ConfigHotkey("freelook.key.zoom", Keyboard.KEY_F);
