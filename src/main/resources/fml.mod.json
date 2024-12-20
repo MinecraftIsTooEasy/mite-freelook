@@ -10,6 +10,10 @@
 	"description": "Take a good look at your surroundings...",
 	"authors": ["jeffyjamzhd"],
 	"icon": "assets/minecraft/icon.png",
+	"contact": {
+		"issues": "https://github.com/jeffinitup/mite-freelook/issues",
+		"homepage": "https://github.com/jeffinitup/mite-freelook"
+	},
 	"entrypoints": {
 		"main": ["com.github.jeffyjamzhd.freelook.FreeLookAddon"],
 		"modmenu": ["com.github.jeffyjamzhd.freelook.compat.ModMenu"]
