@@ -101,7 +101,7 @@ public class CameraEvent {
     // Updates mouse input
     private static void updateMouse() {
         float sens = (getMinecraft().gameSettings.mouseSensitivity * 0.6F) + 0.2F;
-        sens = (float) (Math.pow(sens, 3) * 4.0F);
+        sens = (float) (Math.pow(sens, 3) * 6.0F);
 
         float overall_speed_modifier = getMinecraft().thePlayer.getSpeedBoostVsSlowDown();
         if (overall_speed_modifier < 0.0F) {

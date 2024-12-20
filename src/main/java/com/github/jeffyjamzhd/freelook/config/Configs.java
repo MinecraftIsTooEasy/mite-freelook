@@ -14,6 +14,7 @@ import fi.dy.masa.malilib.util.JsonUtils;
 import net.minecraft.StatCollector;
 import org.lwjgl.input.Keyboard;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,6 +44,8 @@ public class Configs extends SimpleConfigs {
     public static final List<ConfigHotkey> hotkeys;
 
     public static final List<ConfigTab> tabs = new ArrayList<>();
+
+    public static final File optionsFile = new File("config\\freelook.json");
 
     static {
         general = List.of(enableF5, smoothZoom, zoomType, zoomFactor, freelookRange);
@@ -94,16 +97,16 @@ public class Configs extends SimpleConfigs {
         JsonObject root = new JsonObject();
         ConfigUtils.writeConfigBase(root, "freelook", general);
         ConfigUtils.writeConfigBase(root, "hotkeys", hotkeys);
-        JsonUtils.writeJsonToFile(root, this.optionsFile);
+        JsonUtils.writeJsonToFile(root, optionsFile);
         FreeLookAddon.getInstance().handleConfigProperties();
     }
 
     @Override
     public void load() {
-        if (!this.optionsFile.exists()) {
+        if (!optionsFile.exists()) {
             this.save();
         } else {
-            JsonElement jsonElement = JsonUtils.parseJsonFile(this.optionsFile);
+            JsonElement jsonElement = JsonUtils.parseJsonFile(optionsFile);
             if (jsonElement != null && jsonElement.isJsonObject()) {
                 JsonObject root = jsonElement.getAsJsonObject();
                 ConfigUtils.readConfigBase(root, "freelook", general);
