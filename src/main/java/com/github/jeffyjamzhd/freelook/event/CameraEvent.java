@@ -101,7 +101,15 @@ public class CameraEvent {
     // Updates mouse input
     private static void updateMouse() {
         float sens = (getMinecraft().gameSettings.mouseSensitivity * 0.6F) + 0.2F;
-        sens = (float) (Math.pow(sens, 3) * 8.0F);
+        sens = (float) (Math.pow(sens, 3) * 4.0F);
+
+        float overall_speed_modifier = getMinecraft().thePlayer.getSpeedBoostVsSlowDown();
+        if (overall_speed_modifier < 0.0F) {
+            if (overall_speed_modifier < -0.8F)
+                overall_speed_modifier = -0.8F;
+            sens /= (1.0F - overall_speed_modifier * 15.0F);
+        }
+
         mdeltaX = getMinecraft().mouseHelper.deltaX * sens * (float) curZoom;
         mdeltaY = getMinecraft().mouseHelper.deltaY * sens * (float) curZoom;
     }
@@ -122,22 +130,12 @@ public class CameraEvent {
             if (yaw < (ogYaw - 180) - 180) yaw = ((ogYaw - 180) + 180) + (float) (mdeltaX * 0.15D);
         }
 
-        // Clamp pitch in an expected manner
         pitch = MathHelper.clamp_float(pitch, -90.0f, 90.0f);
-
-        // If facing front, reverse controls
-        if (getMinecraft().gameSettings.thirdPersonView == 2) {
-            //yaw -= 180;
-            pitch = -pitch;
-        }
-
-        // Oh boy
         glRotateCam(0, par1);
 
         // Set prev
         prevYaw = yaw;
         prevPitch = pitch;
-        //System.out.println(yaw + "   " + pitch);
     }
 
     // @todo

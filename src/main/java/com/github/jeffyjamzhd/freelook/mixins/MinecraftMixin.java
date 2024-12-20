@@ -17,7 +17,7 @@ public abstract class MinecraftMixin {
     @Inject(method = "runTick", at = @At(value = "TAIL"))
     private void blockF5F8(CallbackInfo ci) {
         if (!FreeLookAddon.enableF5) this.gameSettings.thirdPersonView = 0;
-        this.gameSettings.smoothCamera = false;
+        if (!FreeLookAddon.smoothZoom) this.gameSettings.smoothCamera = false;
     }
 
     // Removes mirrored third person mode (front facing cam)
