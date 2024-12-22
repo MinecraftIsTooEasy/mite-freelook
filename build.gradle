@@ -20,7 +20,7 @@ repositories {
 
 loom {
     mergedMinecraftJar()
-    setFML(new File("libs\\FishModLoader-v3.3.2.jar"))
+    setFML(new File("libs\\FishModLoader-v3.3.3.jar"))
     mods {
         "HelloFML" {
             sourceSet sourceSets.main
