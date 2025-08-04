@@ -20,7 +20,7 @@ repositories {
 
 loom {
     mergedMinecraftJar()
-    setFML(new File("libs\\FishModLoader-v3.3.3.jar"))
+    setFML(new File("libs\\fml-3.4.2.jar"))
     mods {
         "HelloFML" {
             sourceSet sourceSets.main
@@ -39,7 +39,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     implementation files(loom.getFML().toPath())
-    implementation files("libs\\ManyLib-2.2.0.jar")
+    implementation files("libs\\ManyLib-2.2.3.jar")
     implementation files("libs\\ModMenu-1.0.0.jar")
 }
 

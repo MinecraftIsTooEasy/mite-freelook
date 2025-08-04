@@ -4,13 +4,10 @@ import com.github.jeffyjamzhd.freelook.FreeLookAddon;
 import com.github.jeffyjamzhd.freelook.event.CameraEvent;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import fi.dy.masa.malilib.config.ConfigTab;
-import fi.dy.masa.malilib.config.ConfigUtils;
-import fi.dy.masa.malilib.config.SimpleConfigs;
+import fi.dy.masa.malilib.config.*;
 import fi.dy.masa.malilib.config.options.*;
-import fi.dy.masa.malilib.hotkeys.KeyAction;
-import fi.dy.masa.malilib.hotkeys.KeybindSettings;
-import fi.dy.masa.malilib.util.JsonUtils;
+import fi.dy.masa.malilib.hotkeys.*;
+import fi.dy.masa.malilib.util.*;
 import net.minecraft.StatCollector;
 import org.lwjgl.input.Keyboard;
 
@@ -45,7 +42,7 @@ public class Configs extends SimpleConfigs {
 
     public static final List<ConfigTab> tabs = new ArrayList<>();
 
-    public static final File optionsFile = new File("config\\freelook.json");
+    public static final File optionsFile = new File("config" + File.separator + "freelook.json");
 
     static {
         general = List.of(enableF5, smoothZoom, zoomType, zoomFactor, freelookRange);
