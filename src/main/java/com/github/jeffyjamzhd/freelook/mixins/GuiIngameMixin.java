@@ -20,7 +20,7 @@ public abstract class GuiIngameMixin extends Gui {
     private Minecraft mc;
 
     @Unique
-    private static final ResourceLocation squintTex = new ResourceLocation("textures/misc/squint.png");
+    private static final ResourceLocation squintTex = new ResourceLocation("freelook:textures/misc/squint.png");
 
     // Inject function into standard overlay render
     @Inject(method = "renderGameOverlay(FZII)V",

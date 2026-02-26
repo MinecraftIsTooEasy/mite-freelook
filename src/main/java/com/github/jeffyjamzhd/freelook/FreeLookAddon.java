@@ -4,6 +4,7 @@ import com.github.jeffyjamzhd.freelook.config.Configs;
 import fi.dy.masa.malilib.config.ConfigManager;
 import fi.dy.masa.malilib.hotkeys.IKeybind;
 import net.fabricmc.api.ModInitializer;
+import net.xiaoyu233.fml.ModResourceManager;
 
 public class FreeLookAddon implements ModInitializer {
     /*
@@ -12,7 +13,7 @@ public class FreeLookAddon implements ModInitializer {
      */
 
     // Declare variables
-    public static String modId = "mitefreelook";
+    public static String modId = "freelook";
     public static int modVerNum = 1;
     public static String modVerStr = "v1.0.0";
     public static String modName = "MiTE Freelook";
@@ -29,6 +30,7 @@ public class FreeLookAddon implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModResourceManager.addResourcePackDomain(modId);
         Configs.getInstance().load();
         ConfigManager.getInstance().registerConfig(Configs.getInstance());
     }
